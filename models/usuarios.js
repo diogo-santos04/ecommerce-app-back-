@@ -1,5 +1,5 @@
 const { Sequelize, DataTypes } = require("sequelize");
-const sequelize = require("../config/database"); // Importa sua configuração de conexão
+const sequelize = require("../database/database"); // Importa sua configuração de conexão
 
 const Usuario = sequelize.define(
   "usuarios",
